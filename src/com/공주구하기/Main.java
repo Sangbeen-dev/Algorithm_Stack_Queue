@@ -15,7 +15,6 @@ public class Main {
 			Q.poll();
 			if(Q.size()==1) answer = Q.poll();
 		}
-		
 		return answer;
 	}
 
